@@ -27,6 +27,3 @@ def get_players_to_sell(players):
     if not isinstance(players, list):
         raise ValueError('expected list')
     return [player for player in players if player[11] < -100]
-
-def get_player_sell_status()
-
